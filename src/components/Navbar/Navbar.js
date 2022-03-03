@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className='navbar'>
      <Link style={{textDecoration: 'none'}} to="/">
          <h2 className="logo"
-><i className="fa-fa-grav"></i> DAOfind.com</h2></Link>
+> DAOfind.com <i className="fa fa-grav"></i></h2></Link>
       <SearchBar />
       <button className='connect-wallet'>Connect Wallet</button>
         </nav>
