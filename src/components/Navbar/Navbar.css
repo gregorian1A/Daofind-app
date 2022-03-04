@@ -11,9 +11,14 @@
     z-index: 99; 
 }
 
-.navbar img {
+.logo {
+  display: flex;
     width: 150px;
     padding-left: 15px;
+}
+
+.fa-grav {
+  padding-left: 5px;
 }
 
 .connect-wallet {
