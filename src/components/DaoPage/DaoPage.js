@@ -31,6 +31,7 @@ const DaoPage = () => {
                 placeholder="Search DAO"
                 value=""
                 className="searchbarrr"
+                disabled
               />
               <Link to={`/${item.id}/edit`}>
                 <button

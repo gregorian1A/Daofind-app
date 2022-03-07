@@ -257,18 +257,20 @@ const DaoScreen = () => {
         style={{ display: modal ? "block" : "none" }}
       >
         <div className="modal">
-          <h1 style={{ marginLeft: "15px", display: modal ? "block" : "none" }}>
+          <div className="flex-header">
+            <p>{" "}</p>
+             <h1>
             DAO wallet
-          </h1>
-          <h2>Under Construction</h2>
+          </h1> 
           <button
-            style={{ cursor: "pointer" }}
             onClick={() => setModal(false)}
             className="wallet"
-          >
-            Exit Wallet
+          >X
           </button>
-        </div>
+            </div>
+         
+           <h2>Under Construction</h2>
+          </div>
       </div>
     </>
   );

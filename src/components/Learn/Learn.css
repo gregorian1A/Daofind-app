@@ -6,3 +6,19 @@
 .learn h1 {
     color: black;
 }
+
+@media (max-width: 1023px) {
+    .learn-container {
+       
+    }
+    .learn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 180px auto 0px auto;
+        overflow-x: hidden;
+        height: 100%;
+        padding: 0;
+    }
+}

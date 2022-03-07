@@ -13,7 +13,8 @@ const SearchBar = () => {
             type="text"
             placeholder='Search DAO'
             value={input}
-            onChange={e => setInput(e.target.value)} />
+            onChange={e => setInput(e.target.value)}
+            disabled />
         </div>
     )
 }

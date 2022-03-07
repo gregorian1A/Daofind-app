@@ -13,7 +13,7 @@
 
 .logo {
   display: flex;
-    width: 150px;
+   
     padding-left: 15px;
 }
 
@@ -38,6 +38,7 @@
         width: 100vw;
         height: 50px;
         justify-content: space-evenly;
+        position: fixed;
       }
       h2.logo {
         font-size: 13px;

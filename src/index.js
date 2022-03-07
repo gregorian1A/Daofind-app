@@ -7,9 +7,9 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 
 
-      <StaticRouter>
-        <App />
-      </StaticRouter>
+      // <StaticRouter>
+      //   <App />
+      // </StaticRouter>
     
 
 ReactDOM.render(
